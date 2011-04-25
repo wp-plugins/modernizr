@@ -4,7 +4,7 @@ Donate link: http://www.ramoonus.nl
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, modernizr
 Requires at least: 3.0.0
 Tested up to: 3.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 This plugin adds the Modernizr Javascript library to your WordPress installation.
 == Description ==
@@ -34,5 +34,8 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.0.1 =
+* Fixes a PHP error (thanks Anthony)
+
 = 1.0.0 =
 * First version, based on Modernizr 1.7
