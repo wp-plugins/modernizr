@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Modernizr
-Plugin URI: http://www.ramoonus.nl
+Plugin URI: http://www.ramoonus.nl/wordpress/modernizr/
 Description: Modernizr is a small and simple JavaScript library that helps you take advantage of emerging web technologies (CSS3, HTML 5) while still maintaining a fine level of control over older browsers that may not yet support these new technologies.
 Version: 2.0.0
 Author: Ramoonus
-Author URI: http://www.ramoonus.nl/wordpress/modernizr/
+Author URI: http://www.ramoonus.nl/
 */
 
 // Install
