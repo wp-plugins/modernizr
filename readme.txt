@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors: ramoonus
-Donate link: http://www.ramoonus.nl
+Contributors: Ramoonus
+Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, modernizr
 Requires at least: 3.0.0
-Tested up to: 3.2.0
-Stable tag: 2.0.6
+Tested up to: 3.3.1
+Stable tag: 2.5.2
 
 This plugin adds the Modernizr Javascript library to your WordPress installation.
 == Description ==
@@ -19,6 +19,9 @@ Modernizr uses feature detection to test the current browser against upcoming fe
 Additionally, Modernizr creates a self-titled global JavaScript object which contains properties for each feature; if a browser supports it, the property will evaluate true and if not, it will be false.
 
 Lastly, Modernizr also adds support for styling and printing HTML5 elements. This allows you to use more semantic, forward-looking elements such as <section>, <header> and <dialog> without having to worry about them not working in Internet Explorer.
+
+
+For documentation visit http://www.modernizr.com/docs/
  
 == Installation ==
 1. Upload `modernizer.php` to the `/wp-content/plugins/` directory
@@ -28,12 +31,19 @@ Lastly, Modernizr also adds support for styling and printing HTML5 elements. Thi
 None at this moment.
 
 == Upgrade Notice == 
-Its recommended to flush the cache after upgrading.
+= 2.5.2 = 
+* Updates Modernizr to 2.5.2
 
 == Screenshots ==
 Not relevant.
 
 == Changelog ==
+= 2.5.2 = 
+* Updates Modernizr to 2.5.2
+
+= 2.5.0 =
+* Updates Modernizr to 2.5.0
+
 = 2.0.6 =
 * Updated the script to version 2.0.6
 
