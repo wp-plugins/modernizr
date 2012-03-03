@@ -1,43 +1,36 @@
-=== Plugin Name ===
+=== Modernizr for WordPress ===
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, modernizr
 Requires at least: 3.0.0
 Tested up to: 3.3.1
-Stable tag: 2.5.2
+Stable tag: 2.5.3
 
-This plugin adds the Modernizr Javascript library to your WordPress installation.
+This plugin adds the Modernizr to your WordPress installation.
+
 == Description ==
-This plugin adds the Modernizr Javascript library to your WordPress installation.
-
-Modernizr adds classes to the <html> element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.
-
-Modernizr is a small and simple JavaScript library that helps you take advantage of emerging web technologies (CSS3, HTML 5) while still maintaining a fine level of control over older browsers that may not yet support these new technologies.
-
-Modernizr uses feature detection to test the current browser against upcoming features like rgba(), border-radius, CSS Transitions and many more. These are currently being implemented across browsers and with Modernizr you can start using them right now, with an easy way to control the fallbacks for browsers that don't yet support them.
-
-Additionally, Modernizr creates a self-titled global JavaScript object which contains properties for each feature; if a browser supports it, the property will evaluate true and if not, it will be false.
-
-Lastly, Modernizr also adds support for styling and printing HTML5 elements. This allows you to use more semantic, forward-looking elements such as <section>, <header> and <dialog> without having to worry about them not working in Internet Explorer.
-
+This plugin adds the Modernizr to your WordPress installation.
+Modernizr is a small JavaScript library that detects the availability of native implementations for next-generation web technologies, i.e. features that stem from the HTML5 and CSS3 specifications. Many of these features are already implemented in at least one major browser (most of them in two or more), and what Modernizr does is, very simply, tell you whether the current browser has this feature natively implemented or not.
 
 For documentation visit http://www.modernizr.com/docs/
  
 == Installation ==
-1. Upload `modernizer.php` to the `/wp-content/plugins/` directory
+1. Upload `modernizer/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Implement the required features as documented on http://www.modernizr.com/docs/
 
 == Frequently Asked Questions == 
 None at this moment.
-
-== Upgrade Notice == 
-= 2.5.2 = 
-* Updates Modernizr to 2.5.2
 
 == Screenshots ==
 Not relevant.
 
 == Changelog ==
+= 2.5.3 = 
+* Updated the Modernizr javascript to version 2.5.3
+* Code Optimalization
+* Readme Update
+
 = 2.5.2 = 
 * Updates Modernizr to 2.5.2
 
@@ -55,3 +48,10 @@ Not relevant.
 
 = 1.0.0 =
 * First version, based on Modernizr 1.7
+
+== Upgrade Notice == 
+= 2.5.2 = 
+* Updates Modernizr to 2.5.2
+
+= 2.5.0 =
+* Updates Modernizr to 2.5.0
