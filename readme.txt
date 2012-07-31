@@ -2,9 +2,9 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, css 3, css3, modernizr
-Requires at least: 3.0.0
-Tested up to: 3.3.1
-Stable tag: 2.5.3
+Requires at least: 3.0
+Tested up to: 3.4
+Stable tag: 2.6.1
 
 This plugin adds the Modernizr to your WordPress installation.
 
@@ -26,6 +26,10 @@ None at this moment.
 Not relevant.
 
 == Changelog ==
+= 2.6.1 =
+* Updated Modernizr to version 2.6.1
+* Changelog for Modernizr 2.6.1 http://modernizr.com/news/modernizr-260/
+
 = 2.5.3 = 
 * Updated the Modernizr javascript to version 2.5.3
 * Code Optimalization
@@ -50,6 +54,9 @@ Not relevant.
 * First version, based on Modernizr 1.7
 
 == Upgrade Notice == 
+= 2.6.1 =
+* Updated Modernizr to version 2.6.1
+
 = 2.5.2 = 
 * Updates Modernizr to 2.5.2
 
